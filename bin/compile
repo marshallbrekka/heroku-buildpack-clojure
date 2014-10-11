@@ -8,6 +8,7 @@ set -e
 export BUILD_DIR=$1
 export CACHE_DIR=$2
 export ENV_DIR=$3
+export DEBUG=true
 
 # Load common JVM functionality from https://github.com/heroku/heroku-buildpack-jvm-common
 JVM_COMMON_BUILDPACK=https://heroku-jvm-common.s3.amazonaws.com/jvm-buildpack-common.tar.gz
